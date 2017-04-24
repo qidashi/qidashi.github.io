@@ -5,17 +5,17 @@
   
   <title>note01 | SanXiaoLingXi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="#Android Studio常用的插件Plugins    Android ButterKnife Zelezny      GsonFormat      Sexy Editor      CodeGlance #Android静态壁纸设置    ` /**  * 1、设置静态壁纸 WallpaperManager.setXxx(X x,...);  * 2、权限： &amp;lt;uses-perm">
+  <meta name="description" content="#Android Studio常用的插件Plugins Android ButterKnife Zelezny GsonFormat Sexy Editor CodeGlance  #Android静态壁纸设置  //1、设置静态壁纸 WallpaperManager.setXxx(X x,...);  //2、权限： &amp;lt;uses-permission android:name=&amp;quot;">
 <meta name="keywords">
 <meta property="og:type" content="article">
 <meta property="og:title" content="note01">
 <meta property="og:url" content="http://qidashi.github.io/2017/04/24/note01/index.html">
 <meta property="og:site_name" content="SanXiaoLingXi">
-<meta property="og:description" content="#Android Studio常用的插件Plugins    Android ButterKnife Zelezny      GsonFormat      Sexy Editor      CodeGlance #Android静态壁纸设置    ` /**  * 1、设置静态壁纸 WallpaperManager.setXxx(X x,...);  * 2、权限： &amp;lt;uses-perm">
-<meta property="og:updated_time" content="2017-04-24T08:51:05.244Z">
+<meta property="og:description" content="#Android Studio常用的插件Plugins Android ButterKnife Zelezny GsonFormat Sexy Editor CodeGlance  #Android静态壁纸设置  //1、设置静态壁纸 WallpaperManager.setXxx(X x,...);  //2、权限： &amp;lt;uses-permission android:name=&amp;quot;">
+<meta property="og:updated_time" content="2017-04-24T09:05:10.945Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="note01">
-<meta name="twitter:description" content="#Android Studio常用的插件Plugins    Android ButterKnife Zelezny      GsonFormat      Sexy Editor      CodeGlance #Android静态壁纸设置    ` /**  * 1、设置静态壁纸 WallpaperManager.setXxx(X x,...);  * 2、权限： &amp;lt;uses-perm">
+<meta name="twitter:description" content="#Android Studio常用的插件Plugins Android ButterKnife Zelezny GsonFormat Sexy Editor CodeGlance  #Android静态壁纸设置  //1、设置静态壁纸 WallpaperManager.setXxx(X x,...);  //2、权限： &amp;lt;uses-permission android:name=&amp;quot;">
   
     <link rel="alternate" href="/atom.xml" title="SanXiaoLingXi" type="application/atom+xml">
   
@@ -59,7 +59,7 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Søk"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://qidashi.github.io"></form>
@@ -90,14 +90,15 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#Android Studio常用的插件Plugins<br>    <code>Android ButterKnife Zelezny
-     GsonFormat
-     Sexy Editor
-     CodeGlance</code></p>
-<p>#Android静态壁纸设置<br>    ` /**</p>
-<pre><code> * 1、设置静态壁纸 WallpaperManager.setXxx(X x,...);
- * 2、权限： &lt;uses-permission android:name=&quot;android.permission.SET_WALLPAPER&quot;/&gt;
- */
+        <p>#Android Studio常用的插件Plugins</p>
+<pre><code>Android ButterKnife Zelezny
+GsonFormat
+Sexy Editor
+CodeGlance 
+</code></pre><p>#Android静态壁纸设置</p>
+<pre><code> //1、设置静态壁纸 WallpaperManager.setXxx(X x,...);
+ //2、权限： &lt;uses-permission android:name=&quot;android.permission.SET_WALLPAPER&quot;/&gt;
+
 private void setWallpaper(){
     WallpaperManager wallpaperManager = WallpaperManager.getInstance(this);
     try {
@@ -106,8 +107,8 @@ private void setWallpaper(){
         e.printStackTrace();
     }
 
-}`
-</code></pre><p>#Android常用的gradle<br>    ` compile ‘com.jakewharton:butterknife:8.5.1’<br>     annotationProcessor ‘com.jakewharton:butterknife-compiler:8.5.1’</p>
+}
+</code></pre><p>#Android常用的gradle<br>     compile ‘com.jakewharton:butterknife:8.5.1’<br>     annotationProcessor ‘com.jakewharton:butterknife-compiler:8.5.1’</p>
 <pre><code>compile &apos;com.squareup.retrofit2:retrofit:2.2.0&apos;
 compile &apos;com.squareup.retrofit2:converter-gson:2.2.0&apos;
 compile &apos;com.squareup.retrofit2:converter-scalars:2.2.0&apos;
@@ -117,9 +118,16 @@ compile &apos;io.reactivex.rxjava2:rxjava:2.0.1&apos;
 
 
 compile &apos;com.android.support:appcompat-v7:25.1.0&apos;
-compile &apos;com.android.support:recyclerview-v7:25.1.0&apos; `
-</code></pre><p>#Android手机屏幕熄灭监听<br>    `   //只能动态注册监听<br>    private void registerScreenOff() {<br>        IntentFilter mScreenOffFilter = new IntentFilter();<br>        mScreenOffFilter.addAction(Intent.ACTION_SCREEN_OFF);<br>        registerReceiver(mScreenOffReceiver,mScreenOffFilter);<br>    }</p>
-<pre><code>//屏幕关闭广播
+compile &apos;com.android.support:recyclerview-v7:25.1.0&apos; 
+</code></pre><p>#Android手机屏幕熄灭监听</p>
+<pre><code> //只能动态注册监听
+private void registerScreenOff() {
+    IntentFilter mScreenOffFilter = new IntentFilter();
+    mScreenOffFilter.addAction(Intent.ACTION_SCREEN_OFF);
+    registerReceiver(mScreenOffReceiver,mScreenOffFilter);
+}
+
+//屏幕关闭广播
 private BroadcastReceiver mScreenOffReceiver = new BroadcastReceiver() {
     @Override
     public void onReceive(Context context, Intent intent) {
@@ -130,83 +138,87 @@ private BroadcastReceiver mScreenOffReceiver = new BroadcastReceiver() {
         }
     }
 };
-</code></pre><p>`</p>
-<p>#Android无密码情况下的解锁系统<br>    <code>//解系统锁（在onCreate方法里执行）
-      //权限：&lt;uses-permission android:name=&quot;android.permission.DISABLE_KEYGUARD&quot;/&gt;
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);</code></p>
-<p>#服务中启动一个activity，并且不出现在最近列表里<br>    <code>//LockScreenActivity为要启动的活动
-       Intent mLockIntent = new Intent(context,LockScreenActivity.class);
-                mLockIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
-                startActivity(mLockIntent);</code></p>
-<p>#Android隐藏顶部状态栏<br>    <code>private void hideStatus() {
-        if(Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.KITKAT){
-            Window window = getWindow();
-            window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-        }
-        if(Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.LOLLIPOP){
-            Window window = getWindow();
-            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-            window.getDecorView()
-                    .setSystemUiVisibility(
-                            View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-                            | View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-                    );
-            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-            window.setStatusBarColor(0);
-        }
-    }</code></p>
-<p>#Android隐藏导底部航栏<br>    <code>private void hideNavigation() {
-        getWindow().getDecorView().setSystemUiVisibility(
-                View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-                | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
-                | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-                | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
-                | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-        );
-    }</code></p>
-<p>#Android耳机插入拔出的监听<br>    <code>private void registHeadsetPlug() {
-        //动态注册插拔耳麦的广播接收器
-        HeadsetPlugReceiver headsetPlugReceiver = new HeadsetPlugReceiver();
-        IntentFilter filter = new IntentFilter();
-        filter.addAction(&quot;android.intent.action.HEADSET_PLUG&quot;);
-        registerReceiver(headsetPlugReceiver, filter);
+</code></pre><p>#Android无密码情况下的解锁系统</p>
+<pre><code>//解系统锁（在onCreate方法里执行）
+ //权限：&lt;uses-permission android:name=&quot;android.permission.DISABLE_KEYGUARD&quot;/&gt;
+   getWindow().addFlags(WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD);
+   getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
+</code></pre><p>#服务中启动一个activity，并且不出现在最近列表里</p>
+<pre><code>//LockScreenActivity为要启动的活动
+   Intent mLockIntent = new Intent(context,LockScreenActivity.class);
+            mLockIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
+            startActivity(mLockIntent);
+</code></pre><p>#Android隐藏顶部状态栏</p>
+<pre><code> private void hideStatus() {
+    if(Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.KITKAT){
+        Window window = getWindow();
+        window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
     }
-    public class HeadsetPlugReceiver extends BroadcastReceiver {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            if (intent.hasExtra(&quot;state&quot;)) {
-                int state = intent.getIntExtra(&quot;state&quot;, 0);
-                if (state == 0) {
-                  //耳机已拔出
-                } else if (state == 1) {
-                  //耳机已经连接
-                }
+    if(Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.LOLLIPOP){
+        Window window = getWindow();
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        window.getDecorView()
+                .setSystemUiVisibility(
+                        View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                        | View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                );
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        window.setStatusBarColor(0);
+    }
+}
+</code></pre><p>#Android隐藏导底部航栏</p>
+<pre><code>private void hideNavigation() {
+    getWindow().getDecorView().setSystemUiVisibility(
+            View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+            | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+            | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+            | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+            | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+    );
+}
+</code></pre><p>#Android耳机插入拔出的监听</p>
+<pre><code> private void registHeadsetPlug() {
+    //动态注册插拔耳麦的广播接收器
+    HeadsetPlugReceiver headsetPlugReceiver = new HeadsetPlugReceiver();
+    IntentFilter filter = new IntentFilter();
+    filter.addAction(&quot;android.intent.action.HEADSET_PLUG&quot;);
+    registerReceiver(headsetPlugReceiver, filter);
+}
+public class HeadsetPlugReceiver extends BroadcastReceiver {
+    @Override
+    public void onReceive(Context context, Intent intent) {
+        if (intent.hasExtra(&quot;state&quot;)) {
+            int state = intent.getIntExtra(&quot;state&quot;, 0);
+            if (state == 0) {
+              //耳机已拔出
+            } else if (state == 1) {
+              //耳机已经连接
             }
         }
-    }</code></p>
-<p>#Android日期时间格式化<br>    <code>public void getTime(){
-            long time=System.currentTimeMillis();
-            Date date=new Date(time);
-            //EEEE表示星期几
-            SimpleDateFormat format=new SimpleDateFormat(&quot;yyyy年MM月dd日 HH时mm分ss秒 EEEE&quot;);
-            Log.e(&quot;time&quot;,&quot;time1=&quot;+format.format(date));
-            format=new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;);
-            Log.e(&quot;time&quot;,&quot;time2=&quot;+format.format(date));
-            format=new SimpleDateFormat(&quot;yyyy/MM/dd&quot;);
-            Log.e(&quot;time&quot;,&quot;time3=&quot;+format.format(date));
-            format=new SimpleDateFormat(&quot;HH:mm:ss&quot;);
-            Log.e(&quot;time&quot;,&quot;time4=&quot;+format.format(date));
-            format=new SimpleDateFormat(&quot;EEEE&quot;);
-            Log.e(&quot;time&quot;,&quot;time5=&quot;+format.format(date));
-            format=new SimpleDateFormat(&quot;E&quot;);
-            Log.e(&quot;time&quot;,&quot;time6=&quot;+format.format(date));
-        }</code></p>
-<p>#Android每隔一分钟的时间监听<br>    `/**</p>
-<pre><code> * 每隔一分钟检测
- * @author TianMing.Xiong
- *@Time 16/12/8
- */
+    }
+}
+</code></pre><p>#Android日期时间格式化</p>
+<pre><code>public void getTime(){
+        long time=System.currentTimeMillis();
+        Date date=new Date(time);
+        //EEEE表示星期几
+        SimpleDateFormat format=new SimpleDateFormat(&quot;yyyy年MM月dd日 HH时mm分ss秒 EEEE&quot;);
+        Log.e(&quot;time&quot;,&quot;time1=&quot;+format.format(date));
+        format=new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;);
+        Log.e(&quot;time&quot;,&quot;time2=&quot;+format.format(date));
+        format=new SimpleDateFormat(&quot;yyyy/MM/dd&quot;);
+        Log.e(&quot;time&quot;,&quot;time3=&quot;+format.format(date));
+        format=new SimpleDateFormat(&quot;HH:mm:ss&quot;);
+        Log.e(&quot;time&quot;,&quot;time4=&quot;+format.format(date));
+        format=new SimpleDateFormat(&quot;EEEE&quot;);
+        Log.e(&quot;time&quot;,&quot;time5=&quot;+format.format(date));
+        format=new SimpleDateFormat(&quot;E&quot;);
+        Log.e(&quot;time&quot;,&quot;time6=&quot;+format.format(date));
+    }
+</code></pre><p>#Android每隔一分钟的时间监听</p>
+<pre><code> // 每隔一分钟检测
+ // @author TianMing.Xiong
+ //@Time 16/12/8
 private void oneMuteCheck(){
     CheckBroadCastReceiver receiver = new CheckBroadCastReceiver();
     IntentFilter filter=new IntentFilter();
@@ -224,7 +236,7 @@ public class CheckBroadCastReceiver extends BroadcastReceiver {
             //每隔一分钟doSomething
         }
     }
-}`
+}
 </code></pre>
       
     </div>
@@ -253,7 +265,7 @@ public class CheckBroadCastReceiver extends BroadcastReceiver {
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">Arkiv</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a></li></ul>
     </div>
@@ -263,7 +275,7 @@ public class CheckBroadCastReceiver extends BroadcastReceiver {
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">Siste innlegg</h3>
     <div class="widget">
       <ul>
         
